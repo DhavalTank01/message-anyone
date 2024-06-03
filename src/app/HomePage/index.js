@@ -10,8 +10,8 @@ import { capitalizeFirstLetter } from 'dhavaltank-js-utils';
 const HomePage = () => {
     const showAlert = useAlert();
     let initialData = {
-        text: "Test",
-        number: "9904924102",
+        text: "",
+        number: "",
         countryCode: "+91"
     }
     const [details, setDetails] = useState(initialData);
