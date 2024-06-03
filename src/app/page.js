@@ -5,7 +5,7 @@ import HomePage from "./HomePage";
 import customTheme from "./theme";
 import { ThemeProvider } from '@mui/material/styles';
 
-export default function Home() {
+const Home = () => {
 
   return (
     <AlertProvider>
@@ -15,3 +15,5 @@ export default function Home() {
     </AlertProvider>
   );
 }
+
+export default Home;
